@@ -1,4 +1,4 @@
-package io.github.cleitonpecunha.database.entity;
+package io.github.cleitonpecunha.database.entitys;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;

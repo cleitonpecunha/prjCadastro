@@ -1,7 +1,6 @@
 package io.github.cleitonpecunha.database.repositories;
 
-import io.github.cleitonpecunha.database.entity.Cliente;
-import org.springframework.data.jpa.domain.Specification;
+import io.github.cleitonpecunha.database.entitys.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

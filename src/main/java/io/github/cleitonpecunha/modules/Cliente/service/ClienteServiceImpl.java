@@ -1,15 +1,14 @@
 package io.github.cleitonpecunha.modules.Cliente.service;
 
-import io.github.cleitonpecunha.database.entity.Cliente;
+import io.github.cleitonpecunha.database.entitys.Cliente;
 import io.github.cleitonpecunha.database.repositories.Clientes;
-import io.github.cleitonpecunha.exception.RegraNegocioException;
+import io.github.cleitonpecunha.config.exception.RegraNegocioException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -34,7 +33,6 @@ public class ClienteServiceImpl implements ClienteService {
         novoCliente.setCpf(cliente.getCpf());
         clientesRepository.save(novoCliente);
         return novoCliente;
-
     }
 
     @Override

@@ -1,6 +1,6 @@
 package io.github.cleitonpecunha.config.rest;
 
-import io.github.cleitonpecunha.exception.RegraNegocioException;
+import io.github.cleitonpecunha.config.exception.RegraNegocioException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

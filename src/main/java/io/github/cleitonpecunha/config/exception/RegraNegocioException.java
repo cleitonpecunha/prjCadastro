@@ -1,4 +1,4 @@
-package io.github.cleitonpecunha.exception;
+package io.github.cleitonpecunha.config.exception;
 
 public class RegraNegocioException extends RuntimeException {
 

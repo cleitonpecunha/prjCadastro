@@ -1,6 +1,6 @@
 package io.github.cleitonpecunha.modules.Cliente.specifications;
 
-import io.github.cleitonpecunha.database.entity.Cliente;
+import io.github.cleitonpecunha.database.entitys.Cliente;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.Join;
 import jakarta.persistence.criteria.Predicate;

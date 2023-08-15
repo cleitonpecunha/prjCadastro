@@ -1,7 +1,7 @@
 package io.github.cleitonpecunha.modules.Cliente.controller;
 
-import io.github.cleitonpecunha.database.entity.Cliente;
-import io.github.cleitonpecunha.exception.RegraNegocioException;
+import io.github.cleitonpecunha.database.entitys.Cliente;
+import io.github.cleitonpecunha.config.exception.RegraNegocioException;
 import io.github.cleitonpecunha.modules.Cliente.service.ClienteService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;

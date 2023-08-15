@@ -1,6 +1,6 @@
 package io.github.cleitonpecunha.modules.Cliente.service;
 
-import io.github.cleitonpecunha.database.entity.Cliente;
+import io.github.cleitonpecunha.database.entitys.Cliente;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
